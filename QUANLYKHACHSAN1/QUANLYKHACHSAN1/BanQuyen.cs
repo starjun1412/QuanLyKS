@@ -21,5 +21,10 @@ namespace QUANLYKHACHSAN1
         {
             this.Close();
         }
+
+        private void BanQuyen_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

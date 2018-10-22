@@ -38,7 +38,7 @@ namespace QUANLYKHACHSAN1
             this.txtdiachi.Text = dataGridView1.Rows[dong].Cells[2].Value.ToString();
             this.txtsdt.Text = dataGridView1.Rows[dong].Cells[3].Value.ToString();
             this.txtcmnd.Text = dataGridView1.Rows[dong].Cells[4].Value.ToString();
-            this.txtGT.Text = dataGridView1.Rows[dong].Cells[5].Value.ToString();
+            this.cbGT.Text = dataGridView1.Rows[dong].Cells[5].Value.ToString();
             this.dateTimePickerD.Text = dataGridView1.Rows[dong].Cells[6].Value.ToString();
             this.dateTimePickerT.Text = dataGridView1.Rows[dong].Cells[7].Value.ToString();
             this.dateTimePickerNS.Text = dataGridView1.Rows[dong].Cells[8].Value.ToString();
@@ -57,7 +57,7 @@ namespace QUANLYKHACHSAN1
             dateTimePickerNS.Format = DateTimePickerFormat.Custom;
 
             if (this.txtmaKH.TextLength == 0)
-                MessageBox.Show("Bạn cần chọn khách hàng cần sửa");
+                MessageBox.Show("Bạn cần chọn khách hàng cần Nhận");
             else
                 if (this.txtmaKH.TextLength == 0)
                 MessageBox.Show("Mã Khách Hàng Không Được Bổ Trống");
@@ -69,9 +69,15 @@ namespace QUANLYKHACHSAN1
                 MessageBox.Show("SĐT Không Được Bổ Trống");
             else
             {
-                ttkh.updatekh(mak, txtmaKH.Text, txtten.Text, txtdiachi.Text, txtcmnd.Text, txtsdt.Text, txtGT.Text, dateTimePickerD.Text, dateTimePickerT.Text, dateTimePickerNS.Text, cbcheck.Text);
-                MessageBox.Show("Đã sửa khách " + this.txtten.Text + " thành công");
+                ttkh.updatekh(mak, txtmaKH.Text, txtten.Text, txtdiachi.Text, txtcmnd.Text, txtsdt.Text, cbGT.Text, dateTimePickerD.Text, dateTimePickerT.Text, dateTimePickerNS.Text, cbcheck.Text);
+                MessageBox.Show("Khách hàng " + this.txtten.Text + " đã nhận phòng");
                 NhanPhong_Load(sender, e);
+                this.txtten.Clear();
+                this.txtdiachi.Clear();
+                this.txtsdt.Clear();
+                this.txtcmnd.Clear();
+                this.txtmaKH.Clear();
+                this.txtten.Focus();
             }
         }
 

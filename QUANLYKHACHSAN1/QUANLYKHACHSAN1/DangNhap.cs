@@ -25,19 +25,19 @@ namespace QUANLYKHACHSAN1
             loginbus Lgbus = new loginbus();
             d = Lgbus.layDS(textBox1.Text, textBox2.Text);
             if (textBox1.Text == "" || textBox2.Text == "")
-                MessageBox.Show("Chua nhap day du thong tin");
+                MessageBox.Show("Chưa nhập đày đủ thông tin!!");
             else
             {
                 if (d.Tables[0].Rows.Count > 0)
                 {
-                    MessageBox.Show("Dang nhap thanh cong");
+                    MessageBox.Show("Đăng nhập thành công");
                     MenuChinh frmmenuchinh = new MenuChinh();
                     this.Hide();
                     frmmenuchinh.ShowDialog();
                     this.Show();
                 }
                 else
-                    MessageBox.Show("Dang nhap that bai");
+                    MessageBox.Show("Kiểm tra lại tài khoản và mật khẩu!!");
             }
 
         }

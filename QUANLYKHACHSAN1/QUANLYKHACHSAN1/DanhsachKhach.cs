@@ -64,6 +64,9 @@ namespace QUANLYKHACHSAN1
             dateTimePickerT.CustomFormat = "MM-dd-yyyy";
             dateTimePickerT.Format = DateTimePickerFormat.Custom;
 
+            dateTimePickerNS.CustomFormat = "MM-dd-yyyy";
+            dateTimePickerNS.Format = DateTimePickerFormat.Custom;
+
             if (this.txtmaKH.TextLength == 0)
                 MessageBox.Show("Bạn cần chọn khách hàng cần sửa");
             else
@@ -80,6 +83,12 @@ namespace QUANLYKHACHSAN1
                 ttkh.updatekh(mak, txtmaKH.Text, txtten.Text, txtdiachi.Text, txtcmnd.Text, txtsdt.Text, cbGT.Text, dateTimePickerD.Text,dateTimePickerT.Text,dateTimePickerNS.Text,cbcheck.Text);
                 MessageBox.Show("Đã sửa khách " + this.txtten.Text + " thành công");
                 DanhsachKhach_Load(sender, e);
+                this.txtten.Clear();
+                this.txtdiachi.Clear();
+                this.txtsdt.Clear();
+                this.txtcmnd.Clear();
+                this.txtmaKH.Clear();
+                this.txtten.Focus();
             }
 
         }
@@ -95,6 +104,12 @@ namespace QUANLYKHACHSAN1
                 ttkh.deleteKH(mak);
                 MessageBox.Show("Đã hủy đặt phòng của khách " + this.txtten.Text + " thành công");
                 DanhsachKhach_Load(sender, e);
+                this.txtten.Clear();
+                this.txtdiachi.Clear();
+                this.txtsdt.Clear();
+                this.txtcmnd.Clear();
+                this.txtmaKH.Clear();
+                this.txtten.Focus();
             }
         }
 
@@ -114,6 +129,9 @@ namespace QUANLYKHACHSAN1
 
             dateTimePickerT.CustomFormat = "MM-dd-yyyy";
             dateTimePickerT.Format = DateTimePickerFormat.Custom;
+
+            dateTimePickerNS.CustomFormat = "MM-dd-yyyy";
+            dateTimePickerNS.Format = DateTimePickerFormat.Custom;
 
             if (this.txtmacantim.TextLength == 0)
                 MessageBox.Show("Bạn  chưa nhập thông tin cần tìm!!");

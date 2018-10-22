@@ -33,7 +33,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -88,7 +87,7 @@
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(1000, 126);
+            this.button6.Location = new System.Drawing.Point(876, 126);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(105, 45);
             this.button6.TabIndex = 28;
@@ -96,21 +95,6 @@
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // button7
-            // 
-            this.button7.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(874, 115);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(120, 66);
-            this.button7.TabIndex = 27;
-            this.button7.Text = "Thoát";
-            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button5
             // 
@@ -138,7 +122,6 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.button7);
             this.Controls.Add(this.button5);
             this.Name = "Hethong";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -153,7 +136,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button5;
     }
 }
