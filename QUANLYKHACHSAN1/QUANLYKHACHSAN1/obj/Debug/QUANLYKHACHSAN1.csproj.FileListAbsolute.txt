@@ -1,0 +1,24 @@
+c:\users\admin\documents\visual studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\bin\Debug\QUANLYKHACHSAN1.exe.config
+c:\users\admin\documents\visual studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\bin\Debug\QUANLYKHACHSAN1.exe
+c:\users\admin\documents\visual studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\bin\Debug\QUANLYKHACHSAN1.pdb
+c:\users\admin\documents\visual studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.Properties.Resources.resources
+c:\users\admin\documents\visual studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.csproj.GenerateResource.Cache
+c:\users\admin\documents\visual studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.exe
+c:\users\admin\documents\visual studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.pdb
+c:\users\admin\documents\visual studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\bin\Debug\bus.dll
+c:\users\admin\documents\visual studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\bin\Debug\data1.dll
+c:\users\admin\documents\visual studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\bin\Debug\bus.pdb
+c:\users\admin\documents\visual studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\bin\Debug\data1.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.Nhanvien.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.DangNhap.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.BanQuyen.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.Hethong.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.MenuChinh.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.DanhsachKhach.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.DatPhong.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.NhanPhong.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.DSPhong.resources
+D:\quanlyks\QUANLYKHACHSAN1\QUANLYKHACHSAN1\bin\Debug\QUANLYKHACHSAN1.exe.config
+D:\quanlyks\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.exe
+D:\quanlyks\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.pdb
