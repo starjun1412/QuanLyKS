@@ -199,6 +199,15 @@
         gg==
 </value>
   </data>
+  <data name="btn_thoat.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAACkSURBVDhP7ZS7DcMgFEVZgIaPKPAgoWQIizkYhE0QKzrcBFwQOwrOq6Ic6eoJEEf8BKtss1FK
+        oZ6CwVSzfhLOeTLGRK012odAeDo4AlFP63rhL3xPvZBbT+taWt2ZEgIhRJegQtzlD6aFA5Bh/i79Vsis
+        tZgfny0Cofc+hhBSzhkuki3HUsr1FY6X4pxb6wqvnSH5syF/2L8jJP9gpyKlRD2AsTuRcV7i6zUYzgAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAeAB4AAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBD

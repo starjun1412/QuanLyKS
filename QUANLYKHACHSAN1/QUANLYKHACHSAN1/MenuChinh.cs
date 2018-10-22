@@ -54,5 +54,10 @@ namespace QUANLYKHACHSAN1
         {
             MessageBox.Show("TÍNH NĂNG SẮP ĐƯỢC CẬP NHẬP", "THÔNG BÁO", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void btn_thoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

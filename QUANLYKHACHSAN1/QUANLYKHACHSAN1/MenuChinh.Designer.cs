@@ -34,6 +34,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.btn_DSP = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.btn_thoat = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button5
@@ -42,7 +43,7 @@
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(784, 102);
+            this.button5.Location = new System.Drawing.Point(713, 109);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(136, 59);
             this.button5.TabIndex = 29;
@@ -58,7 +59,7 @@
             this.btn_hethong.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_hethong.Image = ((System.Drawing.Image)(resources.GetObject("btn_hethong.Image")));
             this.btn_hethong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_hethong.Location = new System.Drawing.Point(132, 102);
+            this.btn_hethong.Location = new System.Drawing.Point(61, 109);
             this.btn_hethong.Name = "btn_hethong";
             this.btn_hethong.Size = new System.Drawing.Size(141, 59);
             this.btn_hethong.TabIndex = 25;
@@ -73,7 +74,7 @@
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(619, 102);
+            this.button4.Location = new System.Drawing.Point(548, 109);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(143, 59);
             this.button4.TabIndex = 28;
@@ -88,7 +89,7 @@
             this.btn_DSP.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_DSP.Image = ((System.Drawing.Image)(resources.GetObject("btn_DSP.Image")));
             this.btn_DSP.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_DSP.Location = new System.Drawing.Point(290, 102);
+            this.btn_DSP.Location = new System.Drawing.Point(219, 109);
             this.btn_DSP.Name = "btn_DSP";
             this.btn_DSP.Size = new System.Drawing.Size(150, 59);
             this.btn_DSP.TabIndex = 26;
@@ -103,7 +104,7 @@
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(458, 102);
+            this.button3.Location = new System.Drawing.Point(387, 109);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(143, 59);
             this.button3.TabIndex = 27;
@@ -112,6 +113,23 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // btn_thoat
+            // 
+            this.btn_thoat.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btn_thoat.AutoSize = true;
+            this.btn_thoat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_thoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_thoat.Image = ((System.Drawing.Image)(resources.GetObject("btn_thoat.Image")));
+            this.btn_thoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_thoat.Location = new System.Drawing.Point(880, 109);
+            this.btn_thoat.Name = "btn_thoat";
+            this.btn_thoat.Size = new System.Drawing.Size(110, 59);
+            this.btn_thoat.TabIndex = 30;
+            this.btn_thoat.Text = "Đăng Xuất";
+            this.btn_thoat.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_thoat.UseVisualStyleBackColor = true;
+            this.btn_thoat.Click += new System.EventHandler(this.btn_thoat_Click);
+            // 
             // MenuChinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -119,6 +137,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1055, 534);
+            this.Controls.Add(this.btn_thoat);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.btn_hethong);
             this.Controls.Add(this.button4);
@@ -141,5 +160,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button btn_DSP;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btn_thoat;
     }
 }

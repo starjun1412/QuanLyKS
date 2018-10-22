@@ -35,6 +35,9 @@ namespace QUANLYKHACHSAN1
                     this.Hide();
                     frmmenuchinh.ShowDialog();
                     this.Show();
+                    this.textBox1.Clear();
+                    this.textBox2.Clear();
+                    this.textBox1.Focus();
                 }
                 else
                     MessageBox.Show("Kiểm tra lại tài khoản và mật khẩu!!");
@@ -66,6 +69,11 @@ namespace QUANLYKHACHSAN1
         {
             help frmh = new help();
             frmh.ShowDialog();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox2.UseSystemPasswordChar = !textBox2.UseSystemPasswordChar;
         }
     }
 }

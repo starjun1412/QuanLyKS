@@ -125,7 +125,7 @@ namespace QUANLYKHACHSAN1
             {
                 ttkh.updatekh(mak, txtmaKH.Text, txtten.Text, txtdiachi.Text, txtcmnd.Text, txtsdt.Text, cbGT.Text, dateTimePickerD.Text,dateTimePickerT.Text,dateTimePickerNS.Text,cbcheck.Text);
                 MessageBox.Show("Đã sửa khách " + this.txtten.Text + " thành công");
-                DatPhong_Load(sender, e)
+                DatPhong_Load(sender, e);
 
             }
         }
