@@ -38,5 +38,21 @@ namespace QUANLYKHACHSAN1
             frmdsp.ShowDialog();
             this.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ThanhToan frmthanhtoan = new ThanhToan();
+            frmthanhtoan.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("TÍNH NĂNG SẮP ĐƯỢC CẬP NHẬP", "THÔNG BÁO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("TÍNH NĂNG SẮP ĐƯỢC CẬP NHẬP", "THÔNG BÁO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

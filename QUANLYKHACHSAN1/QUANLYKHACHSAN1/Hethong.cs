@@ -41,7 +41,7 @@ namespace QUANLYKHACHSAN1
 
         private void button7_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            
         }
 
         private void button5_Click(object sender, EventArgs e)

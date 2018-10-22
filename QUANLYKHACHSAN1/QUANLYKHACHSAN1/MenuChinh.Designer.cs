@@ -49,6 +49,7 @@
             this.button5.Text = "Thống Kê";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // btn_hethong
             // 
@@ -79,6 +80,7 @@
             this.button4.Text = "Thanh toán";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // btn_DSP
             // 
@@ -108,6 +110,7 @@
             this.button3.Text = "Thông Báo";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // MenuChinh
             // 

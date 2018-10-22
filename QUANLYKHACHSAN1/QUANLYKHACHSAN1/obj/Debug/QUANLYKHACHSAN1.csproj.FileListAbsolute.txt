@@ -19,6 +19,5 @@ C:\Users\Admin\Documents\Visual Studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACH
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.DatPhong.resources
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.NhanPhong.resources
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.DSPhong.resources
-D:\quanlyks\QUANLYKHACHSAN1\QUANLYKHACHSAN1\bin\Debug\QUANLYKHACHSAN1.exe.config
-D:\quanlyks\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.exe
-D:\quanlyks\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.help.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\QUANLYKHACHSAN1\QUANLYKHACHSAN1\obj\Debug\QUANLYKHACHSAN1.ThanhToan.resources

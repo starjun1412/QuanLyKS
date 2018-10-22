@@ -18,6 +18,7 @@ namespace QUANLYKHACHSAN1
             InitializeComponent();
         }
 
+        //viết cho nút đăng nhập
         private void button1_Click(object sender, EventArgs e)
         {
             DataSet d = new DataSet();
@@ -41,6 +42,7 @@ namespace QUANLYKHACHSAN1
 
         }
 
+
         private void DangNhap_FormClosing(object sender, FormClosingEventArgs e)
         {
           if (MessageBox.Show("Bạn có thật sự muốn thoát chương trình?", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) != System.Windows.Forms.DialogResult.OK)
@@ -58,6 +60,12 @@ namespace QUANLYKHACHSAN1
         private void DangNhap_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            help frmh = new help();
+            frmh.ShowDialog();
         }
     }
 }

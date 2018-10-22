@@ -25,7 +25,7 @@ namespace QUANLYKHACHSAN1
                     conn.Close();
                     return d;
                 }
-                catch (Exception e)
+                catch (Exception )
                 {
                     return null;
                 }
